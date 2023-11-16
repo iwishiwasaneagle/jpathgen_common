@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+message BivariateGaussian {
+  message Mu {
+    float x = 1;
+    float y = 2;
+  }
+
+  message Cov {
+    float c11 = 1;
+    float c12 = 2;
+    float c21 = 3;
+    float c22 = 4;
+  }
+
+  Mu mu = 1;
+  Cov cov = 2;
+}
+
+message MMBG {
+  repeated BivariateGaussian bgs = 1;
+}
+
+message PDM {
+  float minx = 1;
+  float maxx = 2;
+  float miny = 3;
+  float maxy = 4;
+
+  oneof data {
+    MMBG mmbg = 10;
+  }
+}

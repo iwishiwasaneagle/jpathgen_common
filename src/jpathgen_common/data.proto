@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import "jpathgen_common/path.proto";
+import "jpathgen_common/pdm.proto";
+
+import "google/protobuf/timestamp.proto";
+
+message Data {
+  google.protobuf.Timestamp timestamp = 1;
+  Path path = 2;
+  PDM pdm = 3;
+}
+
+message DataSet{
+  repeated Data data = 1;
+}

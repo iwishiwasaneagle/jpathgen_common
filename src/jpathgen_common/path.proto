@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message Coord {
+  float x = 1;
+  float y = 2;
+  optional float z = 3;
+}
+
+message Path {
+  repeated Coord coords = 1;
+}
