@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools", "setuptools-protobuf[mypy]"]
+
+[tool.setuptools-protobuf]
+mypy = true
+protobufs = [
+    "jpathgen_common/pdm.proto",
+    "jpathgen_common/path.proto",
+    "jpathgen_common/data.proto",
+]
