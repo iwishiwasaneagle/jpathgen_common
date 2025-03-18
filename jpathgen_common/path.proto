@@ -4,6 +4,16 @@ message Coord {
   float x = 1;
   float y = 2;
   optional float z = 3;
+  optional float data0 = 4;
+  optional float data1 = 5;
+  optional float data2 = 6;
+  optional float data3 = 7;
+  optional float data4 = 8;
+  optional float data5 = 9;
+  optional float data6 = 10;
+  optional float data7 = 11;
+  optional float data8 = 12;
+  optional float data9 = 13;
 }
 
 message Path {
