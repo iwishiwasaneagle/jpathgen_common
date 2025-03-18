@@ -2,11 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.2.1] - 2025-03-18
+
+### Miscellaneous Tasks
+
+- Bumpy version in-line with git tags
+
 ## [0.2.0] - 2025-03-18
 
 ### Features
 
 - Add optional data fields to the path type
+
+### Miscellaneous Tasks
+
+- Update changelog for v0.2.0 [skip pre-commit.ci]
 
 ## [0.1.1] - 2023-11-23
 
