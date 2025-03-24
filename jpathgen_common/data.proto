@@ -2,6 +2,7 @@ syntax = "proto3";
 
 import "jpathgen_common/path.proto";
 import "jpathgen_common/pdm.proto";
+import "jpathgen_common/terrain.proto";
 
 import "google/protobuf/timestamp.proto";
 
@@ -9,6 +10,7 @@ message Data {
   google.protobuf.Timestamp timestamp = 1;
   Path path = 2;
   PDM pdm = 3;
+  Terrain terrain = 4;
 }
 
 message DataSet{
