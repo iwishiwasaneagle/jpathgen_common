@@ -1,8 +1,8 @@
 syntax = "proto3";
 
 message Terrain {
-  float m_x = 1;
-  float m_y = 2;
-  float c_x = 3;
-  float c_y = 4;
+  float mx = 1;
+  float my = 2;
+  float cx = 3;
+  float cy = 4;
 }
