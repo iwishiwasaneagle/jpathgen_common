@@ -2,11 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.4.2] - 2025-03-24
+
+### Bug Fixes
+
+- Include terrain.proto when compiling the protobuf messages
+
 ## [0.4.1] - 2025-03-24
 
 ### Miscellaneous Tasks
 
 - Bumpy version in-line with git tags
+- Update changelog for v0.4.1 [skip pre-commit.ci]
 
 ## [0.4.0] - 2025-03-24
 
