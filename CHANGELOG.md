@@ -2,11 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.4.1] - 2025-03-24
+
+### Miscellaneous Tasks
+
+- Bumpy version in-line with git tags
+
 ## [0.4.0] - 2025-03-24
 
 ### Bug Fixes
 
 - Keep consistent naming scheme
+
+### Miscellaneous Tasks
+
+- Update changelog for v0.4.0 [skip pre-commit.ci]
 
 ## [0.3.0] - 2025-03-24
 
