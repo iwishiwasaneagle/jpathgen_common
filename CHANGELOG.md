@@ -2,11 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.3.0] - 2025-03-24
+
+### Features
+
+- Add terrain information to the path data
+
 ## [0.2.1] - 2025-03-18
 
 ### Miscellaneous Tasks
 
 - Bumpy version in-line with git tags
+- Update changelog for v0.2.1 [skip pre-commit.ci]
 
 ## [0.2.0] - 2025-03-18
 
