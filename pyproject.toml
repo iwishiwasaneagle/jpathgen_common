@@ -7,4 +7,5 @@ protobufs = [
     "jpathgen_common/pdm.proto",
     "jpathgen_common/path.proto",
     "jpathgen_common/data.proto",
+    "jpathgen_common/terrain.proto",
 ]
